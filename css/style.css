@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+h1 {
+    color:red;
+    font-family: roboto;
+
+}
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: satisfy;
+}
+
+body {
+    font-family: IBM Plex Mono;
+}
+
