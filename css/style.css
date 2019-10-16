@@ -2,20 +2,60 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+header {
+    background: url(../img/huntington.png);
+    margin-top: -50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 h1 {
-    color:red;
+    color:white;
     font-family: roboto;
-
+    font-size: 50px;
+    font-weight: bold;
 }
 
 h2 {
-    background: url(../img/zen.svg);
+    background: url(../img/zen.svg) 550px;
     background-repeat: no-repeat;
     background-size: contain;
     font-family: satisfy;
+    color:white;
 }
 
 body {
     font-family: IBM Plex Mono;
+    text-align: left;
 }
 
+p {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+h3 {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+#zen-participation, #zen-benefits {
+    background: url(../img/bamboo.png);
+    background-color: rgb(110, 145, 110);
+    color: white;
+}
+
+p[role="contentinfo"] {
+    background-color: rgb(54, 77, 54);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: grey;
+}
+
+p[role="contentinfo"]> a {
+    color:white;
+    font-family: "satisfy";
+}
